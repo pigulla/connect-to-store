@@ -1,0 +1,28 @@
+{
+  "name": "connect-to-store",
+  "version": "1.0.0",
+  "description": "Decorator for connecting React components to a Redux store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pigulla/connect-to-store.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "store",
+    "decorator"
+  ],
+  "author": "Raphael Pigulla <pigulla@four66.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/pigulla/connect-to-store/issues"
+  },
+  "homepage": "https://github.com/pigulla/connect-to-store#readme",
+  "peerDependencies": {
+    "react-redux": ">=4"
+  }
+}
