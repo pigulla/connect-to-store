@@ -1,9 +1,17 @@
+# connect-to-store
+
 This decorator simplifies connecting to the Redux store, in particular if a top-level store value is to be mapped to a property of the same name.
 
 ### Basic usage
 ```js
 // passes store.get('foo') as prop 'foo' to the wrapped component (likewise with 'bar')
 @connectToStore('foo', 'bar')
+class MyComponent extends React.Component {
+    static propTypes = {
+        foo: React.PropTypes.array,
+        bar: React.PropTypes.object
+    }
+}
 ```
 
 Additionally, a static `getPropsFromStore` function can be specified to allow for more fine-grained control:
@@ -14,6 +22,10 @@ class MyComponent {
         return {
             bamBaz: store.getIn(['bam', 'baz'])
         };
+    }
+
+    static propTypes = {
+        bamBaz: React.PropTypes.object
     }
 }
 ````
