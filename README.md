@@ -36,4 +36,4 @@ the value of the latter overwrites the former.
 
 ### Notes
 
-If you use Babel 6 you need the `[babel-plugin-transform-decorators-legacy](https://github.com/loganfsmyth/babel-plugin-transform-decorators-legacy)` plugin to add support for decorators.
+If you use Babel 6 you need the [`babel-plugin-transform-decorators-legacy`](https://github.com/loganfsmyth/babel-plugin-transform-decorators-legacy) plugin to add support for decorators.
