@@ -37,3 +37,5 @@ the value of the latter overwrites the former.
 ### Notes
 
 If you use Babel 6 you need the [`babel-plugin-transform-decorators-legacy`](https://github.com/loganfsmyth/babel-plugin-transform-decorators-legacy) plugin to add support for decorators.
+
+In order to use the class properties syntax like in the examples you must enable the [transform-class-properties](https://babeljs.io/docs/plugins/transform-class-properties/) transform (e.g., via using the [stage-1](https://www.npmjs.com/package/babel-preset-stage-1) preset).
